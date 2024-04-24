@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(167, 233, 233);
+    display: flex;
+    font-size: 100px;
+    div{
+        border: 1px solid red;
+        border-radius: 20px;
+        flex-direction: row;
+    }
+}
