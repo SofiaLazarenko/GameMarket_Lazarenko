@@ -1,5 +1,5 @@
-//console.log(1)
+console.log(1)
 
 
-//console.log("GameMarket")
+console.log("GameMarket")
 
