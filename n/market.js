@@ -1,11 +1,34 @@
-let itemsArray=['Газонокосарка 43',
-'Електричний тример 110',
-'Електрична газонокосарка 32',
-'Акумуляторний оприскувач 12 N',
- 'Газонокосарка 430',
- 'Електричний тример 130',
-'Елекртична газонокосарка 320',
- 'Акамуляторний оприскувач 12 E',
+let itemsArray=[
+    {
+        FirstName:"Наталія",
+        LastName:"Венцель",
+        age:18,
+        subject:"Адміністратор",
+        photo:"https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/ventsel-nataliya-vasylivna-683x1024.jpg",
+        
+    }
+    ,
+
+    {
+        FirstName:"Віталій",
+        LastName:"Шатківський",
+        age:43,
+        subject:"CS",
+        photo:"https://lyceum.ztu.edu.ua/wp-content/uploads/2023/03/dsc07815-683x1024.jpg",
+        
+    }
+    ,
+
+    {
+        FirstName:"Наталія",
+        LastName:"Венцель",
+        age:18,
+        subject:"Адміністратор",
+        photo:"https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/ventsel-nataliya-vasylivna-683x1024.jpg"
+        
+    }
+    ,
+
 ]
 
 
@@ -41,8 +64,12 @@ if(itemsDiv){
 itemsArray.forEach((item,index) =>{
     itemsDiv.innerHTML += 
     `<div class ="item">
-        <h2>Товар №${index+1} з ${itemsArray.length}</h2>
-         <p>${item}</p>
+        <h2>Вчитель №${index+1} з ${itemsArray.length}</h2>
+        <p>${item.LastName} ${item.FirstName} </p>
+        <p>src="${item.photo}" alt=${item.FirstName} ${item.LastName} </p>
+         <p>Вік:${item.age}</p>
+         <p>Предмет:${item.subject}</p>
+
     </div>
     `
 })
