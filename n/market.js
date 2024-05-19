@@ -4,7 +4,7 @@ let itemsArray=[
         LastName:"Венцель",
         age:18,
         subject:"Адміністратор",
-        photo:"https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/ventsel-nataliya-vasylivna-683x1024.jpg",
+        photo:"https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/ventsel-nataliya-vasylivna-683x1024.jpg"
         
     }
     ,
@@ -14,20 +14,12 @@ let itemsArray=[
         LastName:"Шатківський",
         age:43,
         subject:"CS",
-        photo:"https://lyceum.ztu.edu.ua/wp-content/uploads/2023/03/dsc07815-683x1024.jpg",
+        photo:"https://lyceum.ztu.edu.ua/wp-content/uploads/2023/03/dsc07815-683x1024.jpg"
         
     }
     ,
 
-    {
-        FirstName:"Наталія",
-        LastName:"Венцель",
-        age:18,
-        subject:"Адміністратор",
-        photo:"https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/ventsel-nataliya-vasylivna-683x1024.jpg"
-        
-    }
-    ,
+   
 
 ]
 
@@ -61,12 +53,13 @@ if(itemsDiv){
     // for(let i=0; i<100; i++){
     //     itemDiv.innerHTML+='<div class="item"></div>'
     // }
-itemsArray.forEach((item,index) =>{
+itemsArray.forEach((item,index) => {
     itemsDiv.innerHTML += 
-    `<div class ="item">
+    `
+    <div class ="item">
         <h2>Вчитель №${index+1} з ${itemsArray.length}</h2>
         <p>${item.LastName} ${item.FirstName} </p>
-        <p>src="${item.photo}" alt=${item.FirstName} ${item.LastName} </p>
+        <p><img src="${item.photo}"  alt="${item.LastName} ${item.FirstName}"></p>
          <p>Вік:${item.age}</p>
          <p>Предмет:${item.subject}</p>
 

@@ -59,7 +59,7 @@ div{
 }
 
 .item-image{
-    height : 200px;
+    height : 100px;
     background-image: url();
     background-size: 70%;
     background-repeat: no-repeat;
@@ -169,4 +169,10 @@ div{
     font-size: 9px;
     text-align: justify;
     color: rgb(120, 120, 120);
+ }
+
+ .item.photo{
+    width: 100px;
+    height:220px;
+
  }
