@@ -4,8 +4,8 @@ let itemsArray=[
         LastName:"Венцель",
         age:18,
         subject:"Адміністратор",
-        photo:"https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/ventsel-nataliya-vasylivna-683x1024.jpg"
-        
+        photo:"https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/ventsel-nataliya-vasylivna-683x1024.jpg",
+        url:"https://lyceum.ztu.edu.ua/team/ventsel-n-v/"
     }
     ,
 
@@ -18,6 +18,16 @@ let itemsArray=[
         
     }
     ,
+    {
+        FirstName:"Вікторія",
+        LastName:"Нелипович",
+        age:18,
+        subject:"Математика",
+        photo:"https://lyceum.ztu.edu.ua/wp-content/uploads/2023/04/nelypovych-viktoriya-vitaliyivna-683x1024.jpg"
+        
+    }
+    
+
 
    
 
@@ -59,9 +69,10 @@ itemsArray.forEach((item,index) => {
     <div class ="item">
         <h2>Вчитель №${index+1} з ${itemsArray.length}</h2>
         <p>${item.LastName} ${item.FirstName} </p>
-        <p><img src="${item.photo}"  alt="${item.LastName} ${item.FirstName}"></p>
-         <p>Вік:${item.age}</p>
+        <p>Вік:${item.age}</p>
          <p>Предмет:${item.subject}</p>
+        <p><img src="${item.photo}" class="item-image"></p>
+        <p><a href="${item.url}" target ="_blank" ></p>
 
     </div>
     `

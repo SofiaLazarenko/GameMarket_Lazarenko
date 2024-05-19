@@ -51,7 +51,7 @@ div{
 .item{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content:space-between;
 }
 
 .item-title{
@@ -171,8 +171,8 @@ div{
     color: rgb(120, 120, 120);
  }
 
- .item.photo{
-    width: 100px;
+ /* .item-image{
+    width: 150px;
     height:220px;
 
- }
+ } */
