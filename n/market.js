@@ -121,7 +121,18 @@ let itemsArray=[
     prise_standart:4497,
     prise_discount:3297,
     prise_coupon:3195,
+  },
+
+  { 
+    title: "Акамуляторний опбрискувач",
+    image:"https://cdn.comfy.ua/media/catalog/product/cache/5/image/600x/9df78eab33525d08d6e5fb8d27136e95/o/b/obpriskuvach-akumulyatorniy-forte-kf-16-1-1200x1200.jpg",
+    pb:9,
+    mono:3,
+    prise_standart:2190,
+    prise_discount:1698,
+    prise_coupon:1596,
   }
+
 
 ]
 let itemsDiv = document.getElementById("item");

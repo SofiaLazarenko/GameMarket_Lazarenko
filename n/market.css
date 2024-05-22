@@ -30,7 +30,7 @@ div{
 
 .items{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
     justify-content: space-between;
 }
 
@@ -140,6 +140,8 @@ div{
     border: 1px solid rgb(red, green, blue);
     border-radius: 5px;
     box-shadow: 0 0 7px rgba(0,0,0,0.3);
+    flex-direction: column;
+    justify-content: space-between;
 
  }
  
@@ -150,17 +152,18 @@ div{
  
 
  .contacts p:first-child{
-    font-weight: bold;
+    font-weight:bold;
  }
  .contacts p:last-child{
     border-left:3px solid rgb(253, 48, 48);
     justify-content: flex-end;
+    align-items:flex-end;
  }
 
  .info{
     font-size: 9px;
-    text-align:center;
-    align-items:end;
+    text-align:justify;
+    align-items:flex-end;
     color: rgb(120, 120, 120);
  }
 
