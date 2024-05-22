@@ -30,7 +30,7 @@ div{
 
 .items{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
     justify-content: space-between;
 }
 
@@ -50,8 +50,8 @@ div{
 
 .item{
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction:column;
+    justify-content:space-between;
 }
 
 .item-title{
@@ -59,7 +59,7 @@ div{
 }
 
 .item-image{
-    height : 200px;
+    height : 100px;
     background-image: url();
     background-size: 70%;
     background-repeat: no-repeat;
@@ -140,6 +140,8 @@ div{
     border: 1px solid rgb(red, green, blue);
     border-radius: 5px;
     box-shadow: 0 0 7px rgba(0,0,0,0.3);
+    flex-direction: column;
+    justify-content: space-between;
 
  }
  
@@ -147,26 +149,28 @@ div{
     margin: 3px;
  }
 
- .contacts p:first-child{
-    font-weight: bold;
- }
- .contacts p:last-child{
-    border-left: 3px solid red;
- }
- .contacts p{
-    margin: 3px;
-
- }
+ 
 
  .contacts p:first-child{
-    font-weight: bold;
+    font-weight:bold;
  }
  .contacts p:last-child{
     border-left:3px solid rgb(253, 48, 48);
+    justify-content: flex-end;
+    align-items:flex-end;
  }
 
  .info{
     font-size: 9px;
-    text-align: justify;
+    text-align:justify;
+    align-items:flex-end;
     color: rgb(120, 120, 120);
  }
+
+ /* .item-image{
+    width: 150px;
+    height:220px;
+
+ } */
+
+ 
