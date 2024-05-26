@@ -36,7 +36,7 @@ div{
 
 
 .item{
-    min-width: 200px;
+    min-width: 400px;
     min-height: 400px;
     margin-bottom: 10px;
     padding: 10px;
@@ -78,25 +78,23 @@ div{
     height: 24px;
 }
 
-.prise{
+.project{
     border: 1px solid rgb(194, 194, 194);
     border-radius: 5px;
-    padding: 5px 10px;
+    padding: 20px 20px;
     display: flex;
 
 }
 
-.prise div:first-child{
+.project div:first-child{
     width: 100px;
     font-size: 20px;
 
 }
 
-.prise div:first-child span{
-    text-decoration-line: line-through;
-}
 
-.prise div:first-child sup{
+
+.project div:first-child sup{
     font-size: 12px;
 }
 .prise div:last-child{
