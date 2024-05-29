@@ -28,7 +28,7 @@ div{
     letter-spacing: 3px;
 }
 
-.items{
+.item{
     display: flex;
     flex-wrap:wrap;
     justify-content: space-between;
@@ -127,12 +127,12 @@ div{
 }
 
 
-.item{
+.items{
     padding: 10px;
     display: flex;
     gap: 20px;
 }
- .item{
+ .items{
     width: 200px;
     height:320px;
     margin-bottom: 10px;

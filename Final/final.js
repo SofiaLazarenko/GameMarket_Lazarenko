@@ -1,20 +1,20 @@
 let itemsArray=[
      
         
-            {
-              Email: "23a_bam@liceum.ztu.edu.ua",
-              Class: "10-А 1",
-              Name: "Боровий Артур",
-              Project: "Дід проти москалів",
-              Project_Repository_Phaser2ndGame: "https://github.com/23a-bam/Phaser2ndGame",
-              Project_Website_Phaser2ndGame: "https://23a-bam.github.io/Phaser2ndGame/",
-              Google_Drive_Folder: "https://drive.google.com/drive/folders/1A12wx0lfNj7Aef9KAw2CFMaDwhWM8V4Q?usp=sharing",
-              Form: "https://forms.gle/sS7tuJWJuGDjmHB98",
-              Project_Repository_GameMarket_Borovyi: "https://github.com/23a-bam/GameMarket_Borovyi",
-              Project_Website_GameMarket_Borovyi: "https://23a-bam.github.io/GameMarket_Borovyi/",
-              Project_Market_Page_GameMarket_Borovyi: "https://23a-bam.github.io/GameMarket_Borovyi/market.html",
-              image:"Final/img/Bor.png"
-            },
+            // {
+            //   Email: "23a_bam@liceum.ztu.edu.ua",
+            //   Class: "10-А 1",
+            //   Name: "Боровий Артур",
+            //   Project: "Дід проти москалів",
+            //   Project_Repository_Phaser2ndGame: "https://github.com/23a-bam/Phaser2ndGame",
+            //   Project_Website_Phaser2ndGame: "https://23a-bam.github.io/Phaser2ndGame/",
+            //   Google_Drive_Folder: "https://drive.google.com/drive/folders/1A12wx0lfNj7Aef9KAw2CFMaDwhWM8V4Q?usp=sharing",
+            //   Form: "https://forms.gle/sS7tuJWJuGDjmHB98",
+            //   Project_Repository_GameMarket_Borovyi: "https://github.com/23a-bam/GameMarket_Borovyi",
+            //   Project_Website_GameMarket_Borovyi: "https://23a-bam.github.io/GameMarket_Borovyi/",
+            //   Project_Market_Page_GameMarket_Borovyi: "https://23a-bam.github.io/GameMarket_Borovyi/market.html",
+            //   image:"Final/img/Bor.png"
+            // },
             // {
             //   Email: "23a_gayu@liceum.ztu.edu.ua",
             //   Class: "10-А 1",
@@ -127,19 +127,19 @@ let itemsArray=[
             //   Project_Website_GameMarket_Borovyi: "https://maskenissen1.github.io/GameMarket_Kravchuk/",
             //   Project_Market_Page_GameMarket_Borovyi: "https://maskenissen1.github.io/GameMarket_Kravchuk/market.html"
             // },
-            // {
-            //   Email: "23a_lsa@liceum.ztu.edu.ua",
-            //   Class: "10-А 1",
-            //   Name: "Лазаренко Софія",
-            //   Project: "Mavka",
-            //   Project_Repository_Phaser2ndGame: "https://github.com/SofiaLazarenko/Phaser2ndGame?authuser=0",
-            //   Project_Website_Phaser2ndGame: "https://sofialazarenko.github.io/Phaser2ndGame/?authuser=0",
-            //   Google_Drive_Folder: "https://docs.google.com/document/d/1Dqe-8TcUA1YLj7mG-2IMBxHsPmlhkwfkEfrOTAb9Nvs/edit?usp=classroom_web&authuser=0",
-            //   Form: "https://forms.gle/PgJv2LH1ZJjjS29V8",
-            //   Project_Repository_GameMarket_Borovyi: "https://github.com/SofiaLazarenko/GameMarket_Lazarenko?authuser=0",
-            //   Project_Website_GameMarket_Borovyi: "https://sofialazarenko.github.io/GameMarket_Lazarenko/index.html",
-            //   Project_Market_Page_GameMarket_Borovyi: "https://sofialazarenko.github.io/GameMarket_Lazarenko/n/market.html?authuser=0"
-            // },
+            {
+              Email: "23a_lsa@liceum.ztu.edu.ua",
+              Class: "10-А 1",
+              Name: "Лазаренко Софія",
+              Project: "Mavka",
+              Project_Repository_Phaser2ndGame: "https://github.com/SofiaLazarenko/Phaser2ndGame?authuser=0",
+              Project_Website_Phaser2ndGame: "https://sofialazarenko.github.io/Phaser2ndGame/?authuser=0",
+              Google_Drive_Folder: "https://docs.google.com/document/d/1Dqe-8TcUA1YLj7mG-2IMBxHsPmlhkwfkEfrOTAb9Nvs/edit?usp=classroom_web&authuser=0",
+              Form: "https://forms.gle/PgJv2LH1ZJjjS29V8",
+              Project_Repository_GameMarket_Borovyi: "https://github.com/SofiaLazarenko/GameMarket_Lazarenko?authuser=0",
+              Project_Website_GameMarket_Borovyi: "https://sofialazarenko.github.io/GameMarket_Lazarenko/index.html",
+              Project_Market_Page_GameMarket_Borovyi: "https://sofialazarenko.github.io/GameMarket_Lazarenko/n/market.html?authuser=0"
+            },
             // {
             //   Email: "23a_kiv@liceum.ztu.edu.ua",
             //   Class: "10-А 1",
@@ -212,4 +212,3 @@ let itemsArray=[
   
        })
   }
-  
